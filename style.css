@@ -1,0 +1,473 @@
+@media only screen and (min-width: 320px) and (max-width: 768px){/*# sourceMappingURL=style.css.map */
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+section.paginauno{
+    width: 100vw;
+    height: 100vh;
+    background-color: #541554;
+    border-bottom: 1px solid black;  
+}
+  
+header{
+    background-color: #541554;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    padding: 10px;
+    
+
+}
+
+.nav{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+}
+ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+li.logo{
+    width: 7%;
+    display: flex;
+    
+    
+}
+.imagen-logo{
+    width: 30px;
+    height: 30px;
+    
+}
+li.titulo{
+    width:20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    position: relative;
+    left: 7px;
+    color: white;
+    
+}
+li.menu-lupa{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+}
+button.menu{
+    border: none;
+    background-color: #541554;
+    color: white;
+    position: absolute;
+    right: 20%;
+}
+button.lupa{
+ border: none;
+ background-color: #541554;
+ color: white;
+}
+div.textos-botones{
+width: 100%;
+height: 55vh;
+padding-top: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+h1.text-white{
+    height: 40%;
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+span{
+    color: #f5cd09;
+}
+p.texto1{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+button.email{
+height: 12%;
+width: 90%;
+font-weight: bold;
+color: #541554;
+}    
+button.google{
+    height: 12%;
+    width: 90%;
+    font-weight: bold;
+    color: white;
+    background-color: #4185F4;
+}
+div.primer-fotoweb{
+width: 100%;
+height: 40vh;
+display: flex;
+justify-content: center;
+}  
+img.foto-movil-header{
+    width: 100%;
+    
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+section.first{
+    width: 100%;
+    background-color: #F5EDE4;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+
+}  
+article.logos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+     
+}
+h2{
+text-align: center;
+font-size: 18px;
+
+} 
+div.logos{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+img.logoairbnb{
+    width:33%;
+    height:40px;
+
+}
+img.logonasa{
+    width: 33%;
+}
+img.logouber{
+    width: 33%;
+    height: 50px;
+}
+img.logoNYT{
+    width: 80%;
+}
+img.logoetsy{
+    width: 30%;
+    height: 60px;
+}
+
+img.movil1{
+    width: 100%;
+}
+article.tools{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px
+}
+h3{
+    font-size: 28px;
+    height: 8vh;
+}
+p.text-tools{
+    height: 15vh;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+a.link-tools{
+    text-decoration: none;
+    color: #4185F4;
+    font-size: 18px;
+    width: 100%;
+    height: 13vh;
+    
+}
+div.movil2{
+    width: 100%;
+    height:;
+}
+img.tools{
+    width: 120%;
+}
+article.work{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+}
+p.text-work{
+    height: 15vh;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+a.link-work{
+    text-decoration: none;
+    color: #4185F4;
+    font-size: 18px;
+    width: 100%;
+    height: 13vh;
+}
+img.work{
+    width: 120%;
+}
+article.team{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: ; 
+    padding: 20px;
+}
+p.text-team{
+    height: 15vh;
+    height: 20vh;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+a.link-team{
+    text-decoration: none;
+    color: #4185F4;
+    font-size: 18px;
+    width: 100%;
+    height: 5vh;
+}
+section.percents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: ; 
+    padding: 20px;
+}
+h3.percents{
+    font-size: 28px;
+    height: 10vh;
+    text-align: center;
+}
+p.percents{
+    height: 15vh;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    text-align: center;
+}
+div.buttons-percents{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+button.meet-slack{
+    height: 6vh;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    background-color: #541554;
+    border-radius: 5px;
+}
+button.talk-to-sales{
+    height: 6vh;
+    width: 100%;
+    font-weight: bold;
+    background-color: white;
+    color: #541554;
+    border-radius: 5px;
+}
+div.percents{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h4{
+    font-size: 50px;
+    color:#541554;
+    padding-top: 20px;;
+
+}
+p.percents{
+font-size: 15px;
+}
+img.percents{
+    width: 110%;
+}
+div.text-matt{
+    height: 50vh;
+}
+p.text-matt{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-style: italic;
+    font-weight:lighter;
+    height: 25vh;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+p.name{
+    padding-left: 30px;
+}
+p.director{
+    padding-left: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+a.link-stories{
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 20px;
+    display: flex;
+    height: 15%;
+    color: #4185F4;
+
+}
+p.little{
+    font-size: 14px;
+    display: flex;
+    padding-left: 8%;
+    height: 20%;
+    align-items: flex-end;
+    text-align: center;
+}
+section.pictures{
+    padding: 30px;
+    background-color: #F5EDE4;
+}
+h3.pictures{
+    font-size: 20px;
+    text-align: center;
+}
+div.pictures{
+    display: flex;
+    flex-direction: column;
+}
+div.purple{
+    height: 50vh;
+    background-color: #541554;
+    clip-path: ellipse(105% 100% at center top);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+}
+h4.final{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+button.try-for-free{
+    height: 15%;
+    width: 90%;
+    font-weight: bold;
+    background-color: white;
+    color: #541554;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.talk-sales{
+    height: 15%;
+    width: 90%;
+    font-weight: bold;
+    background-color:#541554;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+}
+div.final{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    font-weight: bold;
+    border-bottom: 1px black solid;
+}
+img.logo-little{
+    height: 60px;
+    width: 20%;
+}
+footer{
+height: 60vh;
+padding: 5%;
+}
+div.enlaces{
+    font-size: 15px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+form.region{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+div.socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p.chikito{
+    font-size: 12px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
